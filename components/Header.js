@@ -6,12 +6,12 @@ import NavBar from './NavBar'
 
 // const Header = props => (
 //   <Link href="/">
-//     <div classNameName="collapse navbar-collapse" id="navbarNavAltMarkup">
-//     <div classNameName="navbar-nav">
-//       <a classNameName="nav-item nav-link active" href="#">Home <span classNameName="sr-only">(current)</span></a>
-//       <a classNameName="nav-item nav-link" href="#">Features</a>
-//       <a classNameName="nav-item nav-link" href="#">Pricing</a>
-//       <a classNameName="nav-item nav-link disabled" href="#">Disabled</a>
+//     <div classNameNameName="collapse navbar-collapse" id="navbarNavAltMarkup">
+//     <div classNameNameName="navbar-nav">
+//       <a classNameNameName="nav-item nav-link active" href="#">Home <span classNameNameName="sr-only">(current)</span></a>
+//       <a classNameNameName="nav-item nav-link" href="#">Features</a>
+//       <a classNameNameName="nav-item nav-link" href="#">Pricing</a>
+//       <a classNameNameName="nav-item nav-link disabled" href="#">Disabled</a>
 //     </div>
 //   </div>
     
@@ -20,29 +20,29 @@ import NavBar from './NavBar'
 // );
 function Header (){
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/"><img src = '/img/logo.png' style ={{height : 50, width  : 60}}></img></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <a className="navbar-brand" href="/"><img src = '/img/logo.png' style ={{height : 50, width  : 60}}></img></a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
     
     
   </button>
-  <div class="collapse navbar-collapse" id="navbarNav"  >
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+  <div className="collapse navbar-collapse" id="navbarNav"  >
+    <ul className="navbar-nav">
+      <li className="nav-item active">
+        <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="/explore">Blog</a>
+      <li className="nav-item active">
+        <a className="nav-link" href="/explore">Blog</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link active" href="/nearme">Nearme</a>
+      <li className="nav-item active">
+        <a className="nav-link active" href="/nearme">Nearme</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="/mycart">My card</a>
+      <li className="nav-item">
+        <a className="nav-link active" href="/mycart">My card</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="/profile">Profile</a>
+      <li className="nav-item">
+        <a className="nav-link active" href="/profile">Profile</a>
       </li>
     </ul>
   </div>
