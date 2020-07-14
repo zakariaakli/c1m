@@ -19,13 +19,19 @@
     "@material-ui/core": "^4.11.0",
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.5.0",
+    "date-fns": "^2.14.0",
+    "fs": "0.0.1-security",
+    "gray-matter": "^4.0.2",
     "newsapi": "^2.4.0",
     "next": "^9.4.4",
     "next-images": "^1.4.0",
     "node-sass": "^4.14.1",
+    "path": "^0.12.7",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.1",
     "react-dom": "^16.13.1",
+    "remark": "^12.0.0",
+    "remark-html": "^11.0.2",
     "url-loader": "^4.1.0"
   }
 }

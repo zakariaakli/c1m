@@ -1,7 +1,8 @@
 import './card.scss';
+import Link from "next/link";
 
 const Card = props => {
-
+var id = {id: 'pre-rendering'}; 
     return(
         <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3">
         <div className="overflow">
@@ -9,7 +10,9 @@ const Card = props => {
         </div>
         <div className="card-body text-dark">
             <h4 className="card-title">
-            Card Title
+                <Link href="/posts/[id]" as={`/posts/${id.id}`}>
+                <a>hihihhihi</a>
+                </Link>
             </h4>
             <p className="card-text text-secondary">
             fjiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
