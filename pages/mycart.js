@@ -11,14 +11,14 @@ const MyCartView = props => <Layout>
         <h2 style = {{marginLeft :'11%' , marginTop : 20, fontWeight : "bold"}}>Our blog</h2>
         <Hr/>
         <div className="col-md-12"><Cards/>
-        <a href ="/explore" style = {{marginLeft :'15%', fontSize : 20, color : "#fca1a1"}}> See more ...</a>
+        <a href ="/explore" style = {{marginLeft :'15%', fontSize : 15, color : "#d95179", fontWeight : "bold"}}> SEE MORE ...</a>
         </div>
-        <h2 style ={{marginLeft :'11%' , marginTop : 20, fontWeight : "bold", marginTop : "5%"}}>Worldwide news</h2> 
+        <h2 style ={{marginLeft :'11%', fontWeight : "bold", marginTop : "5%"}}>Worldwide news</h2> 
         <Hr/>
         <div className="col-md-12"><Cards/></div>
-        <a href ="/explore" style = {{marginLeft :'15%', fontSize : 20, color : "#fca1a1"}}> See more ...</a>
-    
-    </div>   
+        <a href ="/explore" style = {{marginLeft :'15%', fontSize : 15, color : "#d95179", fontWeight : "bold"}}> SEE MORE ...</a>
+
+    </div>
 </Layout> 
 
 
