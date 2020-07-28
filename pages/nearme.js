@@ -1,5 +1,5 @@
 // pages/nearme.js
-
+import Footer from '../components/footer'
 import Table from '../components/table'
 import Layout from "../components/Layout";
 import Carousel from "../components/carousel";
@@ -9,7 +9,7 @@ const NearMeView = props => <Layout>
             <div className = "row">
 
                 <div className="row justify-content-around custom-line .col-md-4 .offset-md-4" ><Table/></div>
-                
+
 
             </div>
         </div>

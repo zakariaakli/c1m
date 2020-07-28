@@ -3,6 +3,7 @@
 import Head from "next/head";
 
 import Header from "./Header";
+import Footer from "./footer"
 //import NavBar from "./NavBar";
 
 import "./Layout.scss";
@@ -25,9 +26,17 @@ const Layout = props => {
       </Head>
 
       <Header />
-      <div className="Content">{props.children}</div>
-      {/* <NavBar navButtons={navButtons} /> */}
+      <div 
+        className="Content">{props.children}
+        
+      </div>
+      <Footer/>
+      
+      
     </div>
+    
+
+
   );
 };
 

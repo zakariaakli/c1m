@@ -20,7 +20,7 @@ import NavBar from './NavBar'
 // );
 function Header (){
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-4">
   <a className="navbar-brand" href="/"><img src = '/img/logo.png' style ={{height : 50, width  : 60}}></img></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -36,13 +36,10 @@ function Header (){
         <a className="nav-link" href="/explore">Blog</a>
       </li>
       <li className="nav-item active">
-        <a className="nav-link active" href="/nearme">Nearme</a>
+        <a className="nav-link active" href="/nearme">Worldwide news</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link active" href="/mycart">My card</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link active" href="/profile">Profile</a>
+        <a className="nav-link active" href="/mycart">About us</a>
       </li>
     </ul>
   </div>
