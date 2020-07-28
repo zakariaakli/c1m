@@ -3,3 +3,33 @@
     margin-right: 10rem;
     
 }
+
+
+.cont{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+.ContTitle{
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .cont{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    
+  }
+
+  .ContTitle{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

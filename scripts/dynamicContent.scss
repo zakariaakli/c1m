@@ -48,32 +48,3 @@
   .lightText {
     color: #666;
   }
-
-  .cont{
-    margin-left: 13rem;
-    margin-right: 13rem;
-    text-align: justify;
-    text-justify: inter-word;
-    
-}
-
-.ContTitle{
-  margin-left: 13rem;
-  margin-right: 13rem;
-  margin-top: 3rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .cont{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-align: justify;
-    text-justify: inter-word;
-    
-  }
-
-  .ContTitle{
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}

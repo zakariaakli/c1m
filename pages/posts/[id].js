@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Date from '../../components/Date'
 import utilStyles from '../../scripts/dynamicContent.scss'
 import Carousel from '../../components/carousel'
+import idCss from './id.scss'
 
 
 export default function Post({ postData }) {
