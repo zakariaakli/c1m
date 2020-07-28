@@ -22,7 +22,7 @@ const Layout = props => {
         <meta charSet="utf-8" />
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <link rel="stylesheet" async href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       </Head>
 
