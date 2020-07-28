@@ -2,7 +2,7 @@ import './card.scss';
 import Link from "next/link";
 
 const Card = props => {
-var id = {id: 'pre-rendering'}; 
+var id = {id: 'premier-voyage-a-velo-ep01'}; 
     return(
         <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3" >
         <div className="overflow">
@@ -11,13 +11,11 @@ var id = {id: 'pre-rendering'};
         <div className="card-body text-dark">
             <h4 className="card-title">
                 <Link href="/posts/[id]" as={`/posts/${id.id}`}>
-                <a>hihihhihi</a>
+                <a>premier-voyage-a-velo-ep01</a>
                 </Link>
             </h4>
             <p className="card-text text-secondary">
-            fjiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-            codddddddddddddddddddddddddddddddddddddddddddddddddddd
-            fjiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+            Mon nouveau moyen de transport qui m’a couté 50 Euros, est vite devenu mon préféré. Ce vélo m’a ...
 
             </p>
             <div className="d-flex flex-row cardAavatar">
