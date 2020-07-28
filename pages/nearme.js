@@ -1,18 +1,15 @@
 // pages/nearme.js
-
-import Table from '../components/table'
 import Layout from "../components/Layout";
-import Carousel from "../components/carousel";
+import Hr from "../components/separator"
+import Cards from "../components/Cards"
 
 const NearMeView = props => <Layout>
-        <div className = "container">
-            <div className = "row">
-
-                <div className="row justify-content-around custom-line .col-md-4 .offset-md-4" ><Table/></div>
-                
-
-            </div>
-        </div>
+        <h2 style ={{marginLeft :'11%', fontWeight : "bold", marginTop : "5%"}}>Worldwide news</h2> 
+        <Hr/>
+        <div className="col-md-12"><Cards/></div>
+        <div className="col-md-12"><Cards/></div>
+        <div className="col-md-12"><Cards/></div>
+        
 </Layout>;
 
 export default NearMeView;

@@ -3,6 +3,7 @@
 import Layout from "../components/Layout";
 import Table from '../components/table'
 import LargeCards from '../components/largeCards'
+import Footer from '../components/footer'
 const ProfileView = props => <Layout><div class="container">
 <h2 style = {{marginLeft :'2%'}}>Travel</h2> 
 <hr style = {{marginLeft :'2%'}}></hr>
@@ -35,6 +36,7 @@ const ProfileView = props => <Layout><div class="container">
 </div>
 
 </div>
+
 </Layout>;
 
 export default ProfileView;
