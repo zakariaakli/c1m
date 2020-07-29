@@ -32,12 +32,12 @@ function Header (){
       <li className="nav-item">
         <a className="nav-link" href="/mycart">Home <span className="sr-only">(current)</span></a>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <a className="nav-link" href="/explore">Blog</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="/nearme">Worldwide news</a>
-      </li>
+      </li> */}
       <li className="nav-item">
         <a className="nav-link" href="/mycart">About us</a>
       </li>
