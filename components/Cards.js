@@ -8,7 +8,7 @@ const Cards = props => {
             <div className="row">
                 <div className="col-md-4 col-sm-12">
                     <Card 
-                        img="/img/IMG_0950.jpg" 
+                        img="/img/IMG_0980.jpg" 
                         imgAvatar="/img/avatar.jpg"
                         title="premier voyage à vélo | ep01"
                         id='premier-voyage-a-velo-ep01'
