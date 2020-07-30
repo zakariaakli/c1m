@@ -23,3 +23,5 @@ Dimanche 28 Juillet 8h, à moitié réveillé, j’ai pris mon TGV direction Nan
 Petite balade à vélo sur Nantes, à 16h sous la pluie on décide de prendre la route direction Frossay, nous allons dormir au camping du Migron. Ce départ avait marqué le début de mon premier parcours à vélo. **350 KM à vélo entre la Loire-Atlantique et la Charente-Maritime, en passant par la Vendée.**    
 
 Dans ce qui suit, je vous raconterai les détails de cette belle expérience, les moments de joie, de bonne humeur, de fatigue, et parfois même de mauvaise humeur.  
+
+
