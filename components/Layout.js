@@ -10,6 +10,8 @@ import "./Layout.scss";
 import "./index.scss";
 import navButtons from "../config/buttons";
 
+import SocialmediaBar from '../components/socialmediaBar'
+
 const Layout = props => {
   //const appTitle = `C-1m | Blog`;
 
