@@ -1,7 +1,7 @@
 import "./footer.scss"
 function Footer (){
     return(
-        <footer class="container-fluid text-center bg-6">
+        <footer class="footer container-fluid text-center bg-6">
             <p class = "followus">Follow us on :</p>
             <a href = "https://www.facebook.com"><button type="button" class="btn btn-social-icon btn-outline-facebook"><i class="fa fa-facebook"></i></button></a>
             <a href = "https://www.instagram.com"><button type="button" class="btn btn-social-icon btn-outline-instagram"><i class="fa fa-instagram"></i></button></a>
