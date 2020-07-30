@@ -1,9 +1,6 @@
 // pages/profile.js
 
 import Layout from "../components/Layout";
-import Table from '../components/table'
-import LargeCards from '../components/largeCards'
-import Footer from '../components/footer'
 const ProfileView = props => <Layout><div class="container"> 
   <div class="row">
     <h2>About Us</h2> 
