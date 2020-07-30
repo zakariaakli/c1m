@@ -10,13 +10,12 @@ var id = {id: 'premier-voyage-a-velo-ep01'};
         </div>
         <div className="card-body text-dark bg-5">
             <h4 className="card-title">
-                <Link href="/posts/[id]" as={`/posts/${id.id}`}>
-                <a>premier-voyage-a-velo-ep01</a>
+                <Link href="/posts/[id]" as={`/posts/${props.id}`}>
+                <a>{props.title}</a>
                 </Link>
             </h4>
             <p className="card-text text-secondary">
-            Mon nouveau moyen de transport qui m’a couté 50 Euros, est vite devenu mon préféré. Ce vélo m’a ...
-
+            {props.resume}
             </p>
             <div className="d-flex flex-row cardAavatar">
                     <img className="rounded-circle avatar" alt="100x100" src={props.imgAvatar}
