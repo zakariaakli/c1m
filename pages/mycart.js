@@ -10,7 +10,7 @@ const MyCartView = props => <Layout>
     
         <div className="col-md-12"><Carousel/></div>
         <SocialmediaBar/>
-        <h2 style = {{marginLeft :'11%' , marginTop : 20, fontWeight : "bold"}}>Our blog</h2>
+        <h2 style = {{marginLeft :'11%' , marginTop : 70, fontWeight : "bold"}}>Our blog</h2>
         <Hr/>
         <div className="col-md-12"><Cards/>
             <a href ="/explore" style = {{marginLeft :'15%', fontSize : 15, color : "#d95179", fontWeight : "bold"}}> SEE MORE ...</a>

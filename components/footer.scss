@@ -1,31 +1,33 @@
 body {
-    overflow: hidden;
-    width: 100%;
+    
+    
 }
-
+.btn{
+    margin-top: -25px;
+}
 
 .btn.btn-social-icon {
     width: 20px;
     height: 20px;
-    padding: 10px;
+    padding: 0;
   }
 .btn-outline-facebook {
-    border: 1px solid #3b579d;
+    
     color: #3b579d
   }
 
 .btn-outline-twitter {
-    border: 1px solid #2caae1;
+  
     color: #2caae1
 }
 
 .btn-outline-linkedin {
-    border: 1px solid #0177b5;
+   
     color: #0177b5
 }
 
 .btn-outline-instagram {
-    border: 1px solid #dc4a38;
+    
     color: #dc4a38
 }
 
@@ -53,10 +55,12 @@ body {
     color: #ffffff
 }
 
-.footer{
-    
-        border-top: 1px solid #C2B8B8;
-        height:40px;
-        margin-top:-41px;
-   
+
+.bg-6{
+    background-color: #FFECED;
 }
+
+.followus{
+    margin-top: 10px;;
+}
+
