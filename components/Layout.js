@@ -10,6 +10,8 @@ import "./Layout.scss";
 import "./index.scss";
 import navButtons from "../config/buttons";
 
+import SocialmediaBar from '../components/socialmediaBar'
+
 const Layout = props => {
   //const appTitle = `C-1m | Blog`;
 
@@ -22,8 +24,10 @@ const Layout = props => {
         <meta charSet="utf-8" />
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+       
       </Head>
 
       <Header />
