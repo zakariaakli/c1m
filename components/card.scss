@@ -11,15 +11,18 @@ body{
     width: 20rem;
     height: 28rem;
     
+    
 }
 
 .card:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
+    
 }
 
 .card-body{
     padding: 1rem 0 !important;
     height: 5rem;
+
 }
 
 .card-text{
@@ -53,6 +56,7 @@ body{
 margin-top: 0.7rem;
 padding-left: 0.7rem;
 font-weight: bold;
+color: "#d95179";
 }
 
 .centerName {
@@ -63,4 +67,12 @@ font-weight: lighter;
 
 .cardAavatar{
     padding: 0rem 1.9rem;
+}
+
+.bg-5{
+    background:  linear-gradient( white,#DED4DF);
+}
+
+.border-radius{
+    border-radius: 25px;
 }

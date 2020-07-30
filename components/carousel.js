@@ -6,13 +6,13 @@ const Carousel = props => {
         <div id="carouselExampleControls" className="carousel slide mobileSlider" data-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-100 responsive" src="/img/Welcome.png" alt="First slide"/>
+      <img className="d-block w-100 responsive" src="/img/Welcome.gif" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 responsive" src="/img/slider2.jpg" alt="Second slide"/>
+      <img className="d-block w-100 responsive" src="/img/Best destinations in 2020.gif" alt="Second slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-100 responsive" src="/img/slider3.jpg" alt="Third slide"/>
+      <img className="d-block w-100 responsive" src="/img/zaks trip.gif" alt="Third slide"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

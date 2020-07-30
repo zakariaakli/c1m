@@ -25,8 +25,45 @@
 
 .navbar{
   background-color: red($color: #000000);
+  padding: 0px!important;
+  -webkit-box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
+  -moz-box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
+  box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
 }
 .bg-4 {
   background-color: #d95179;
   color: black;
+}
+@keyframes mymove {
+  from {
+    left:  100px;
+       height: 0px;
+       opacity: 0;
+       border-bottom:0px;
+  }
+  to {
+      height: auto;
+
+  }
+}
+
+.navbar-nav a.nav-link{
+  padding: 0px !important;
+}
+ul.navbar-nav li.nav-item{
+margin: 0 20px;
+}
+ul.navbar-nav .nav-item:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav .nav-item:hover:after {
+  width: 100%;
+  background:linear-gradient( rgb(247,245,221),rgb(252, 201, 201));
+}
+.nav-link{
+  color: #cac8c7 ;
 }
