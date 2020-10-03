@@ -2,7 +2,6 @@ import './card.scss';
 import Link from "next/link";
 
 const Card = props => {
-var id = {id: 'premier-voyage-a-velo-ep01'}; 
     return(
         <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 rounded" >
         <div className="overflow">
