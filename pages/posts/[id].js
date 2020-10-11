@@ -11,6 +11,7 @@ export default function Post({ postData }) {
   return (<Layout>
      <Head>
         <title>{postData.title}</title>
+        <meta name="description" content={postData.title}></meta>
       </Head>
       <div className="row">
         <div className="col-md-12">
