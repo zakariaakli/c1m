@@ -6,6 +6,7 @@ import Carousel from "../components/carousel";
 import Hr from '../components/separator'; 
 import SocialmediaBar from '../components/socialmediaBar'; 
 import Cards from '../components/Cards'; 
+import CardsSecondPart from '../components/CardsSecondPart'; 
 
 const MyCartView = props => <Layout>
     <div className="row">
@@ -20,6 +21,12 @@ const MyCartView = props => <Layout>
                 { Cards }
             </div>
         </div>
+        <div></div>
+        <div className="container-fluid d-flex justify-content-center">
+            <div className="row">
+                {CardsSecondPart}
+            </div>
+        </div>
             <a href ="/explore" style = {{marginLeft :'15%', fontSize : 15, color : "#d95179", fontWeight : "bold"}}> SEE MORE ...</a>
         </div>
         <SocialmediaBar/>
@@ -30,7 +37,7 @@ const MyCartView = props => <Layout>
             <div className="row">
                 <div className="col-md-4 col-sm-12">
                     <Card 
-                        img="/img/IMG_0980.jpg" 
+                        img="/img/IMG_0917.jpg" 
                         imgAvatar="/img/avatar.jpg"
                         title="premier voyage à vélo | ep04"
                         id='premier-voyage-a-velo-ep04'
