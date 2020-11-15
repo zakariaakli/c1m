@@ -8,6 +8,7 @@ import Carousel from "../components/carousel";
 import Hr from '../components/separator'; 
 import SocialmediaBar from '../components/socialmediaBar'; 
 import Cards from '../components/Cards'; 
+import CardsSecondPart from '../components/CardsSecondPart'; 
 
 export default function Index(){
   return(
@@ -23,6 +24,10 @@ export default function Index(){
         <div className="container-fluid d-flex justify-content-center">
             <div className="row">
                 { Cards }
+            </div>
+            <div></div>
+            <div className="row">
+                {CardsSecondPart}
             </div>
         </div>
             <a href ="/explore" style = {{marginLeft :'15%', fontSize : 15, color : "#d95179", fontWeight : "bold"}}> SEE MORE ...</a>
