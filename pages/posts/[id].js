@@ -17,9 +17,6 @@ export default function Post({ postData }) {
       </Head>
       <div className="row">
         <div className="col-md-12">
-            <Carousel/>
-        </div>
-        <div className="col-md-12">
             <article>
               <div className="ContTitle">
                   <h1 className={utilStyles.headingXl}>{postData.title}</h1>
