@@ -30,7 +30,7 @@ export default function Post({ postData }) {
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                     {postData.insta ?
                           <InstagramEmbed
-                          url='https://www.instagram.com/p/CHaVo50pVYF/?utm_source=ig_web_copy_link'
+                          url= {postData.insta}
                           clientAccessToken='1068148143638626|a9b9853d87fb33cdc31ac2ad0426818d'
                           maxWidth={320}
                           hideCaption={false}
@@ -62,7 +62,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id); 
- // console.log(postData); 
   return {
     props: {
       postData

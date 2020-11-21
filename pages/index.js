@@ -25,7 +25,9 @@ export default function Index(){
             <div className="row">
                 { Cards }
             </div>
-            <div></div>
+        </div>
+        <div></div>
+        <div className="container-fluid d-flex justify-content-center">
             <div className="row">
                 {CardsSecondPart}
             </div>
