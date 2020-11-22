@@ -24,6 +24,8 @@ export default function Post({ postData }) {
                     <Date dateString={postData.date} />
                   </div>
                   <div className="cont">
+                    {/* Element à ajouter au moment de l'ajout des cartes */}
+                  {/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml1 }} /> */}
                     <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
                     {postData.insta ?
                           <InstagramEmbed
