@@ -1,6 +1,7 @@
 ---
 title: "Mon premier voyage à vélo | Ep.01"
 date: "2020-07-25"
+hisoire: "**zak** est un ingé informatique"
 ---
 
 Juste après <a href="https://www.gouvernement.fr/info-coronavirus/les-actions-du-gouvernement" target="_blank">**le plan du déconfinement annoncé par le gouvernement Français**</a> - qui a pris effet à partir du 11 Juin - j’ai décidé de m’acheter un vélo. Cette envie d’acheter un vélo m’est venue essentiellement suite aux nouvelles mesures gouvernementales, visant à encourager les citoyens à utiliser le vélo pour les déplacements quotidiens. Le vélo est devenu également une forme de nouvelle tendance, pour une fois une tendance qui a de l’intérêt pour notre planète, pour l’écologie et l’humanité en général.   
