@@ -5,8 +5,8 @@ import Layout from "../components/Layout";
 
 const ProfileView = props =>
   <Layout>
-    <div class="container">
-      <div class="row">
+    <div className="container">
+      <div className="row">
         <SocialmediaBar />
         <h2 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold" }}>About Us</h2>
         <Hr />
