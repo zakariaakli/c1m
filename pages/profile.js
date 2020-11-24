@@ -61,7 +61,7 @@ const ProfileView = props => <Layout><div class="container">
     
   </div>
 </Layout>;
-=======
+
 
 const ProfileView = props =>
   <Layout>
@@ -78,6 +78,6 @@ const ProfileView = props =>
       </div>
     </div>
   </Layout>;
->>>>>>> bb1cf13b71a6576c78746d68027e64c02302dadc
+
 
 export default ProfileView;
