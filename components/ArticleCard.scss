@@ -1,0 +1,54 @@
+.card{
+    
+    
+    margin-top: 50px;
+    
+}
+
+.card-img{
+    height: 100%; 
+    filter: blur(3px);
+    filter: brightness(80px);
+    
+    
+}
+
+.card-img:hover{
+    height: 100%; 
+    filter: blur(0);
+    
+    
+
+}
+
+.card:hover{
+    opacity: 1; 
+    
+    
+}
+
+.card-title1{
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(17, 17, 17), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(13, 13, 14);
+}
+.card-text1{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(17, 17, 17), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(13, 13, 14);
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.card-text2{
+    text-align: center;
+    margin-top: 60px;
+    text-shadow: 1px 1px 2px rgb(17, 17, 17), 0 0 1em rgb(0, 0, 0), 0 0 0.2em rgb(13, 13, 14);
+}
+
+.bg-10{
+    //opacity: 0.5;
+    width: 340px;
+    height: 450px;
+    -webkit-filter: hue-rotate(120deg);
+    
+}
