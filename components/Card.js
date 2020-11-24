@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Card = props => {
     return(
-        <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 rounded" >
+        <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 border-right-0" >
         <div className="overflow">
           <img src = {props.img} alt={props.title} className="card-img-top "></img> 
         </div>
