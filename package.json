@@ -20,6 +20,7 @@
     "@zeit/next-sass": "^1.0.1",
     "bootstrap": "^4.5.0",
     "date-fns": "^2.16.1",
+    "esm": "^3.2.25",
     "fs": "0.0.1-security",
     "globby": "^11.0.1",
     "gray-matter": "^4.0.2",
