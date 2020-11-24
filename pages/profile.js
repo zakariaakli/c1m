@@ -17,7 +17,7 @@ const ProfileView = props => <Layout><div class="container">
                     title= "Histoire"
                     id= 'histoire-french-montana'
                     resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
-                    update = {"Updated at " + format(addMonths(new Date(), 0), 'hh' + ' aa')}>
+                    update = {"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
 
         </ArticleCards>
         </div>
@@ -27,7 +27,7 @@ const ProfileView = props => <Layout><div class="container">
                     title= "Echec"
                     id= 'histoire-french-montana'
                     resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
-                    update = {"Updated at " + format(addMonths(new Date(), 0), 'hh' + ' aa')} >
+                    update = {"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
                     
 
         </ArticleCards>
@@ -40,7 +40,7 @@ const ProfileView = props => <Layout><div class="container">
                     title= "Affrontements"
                     id= 'histoire-french-montana'
                     resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
-                    update = {"Updated at " + format(addMonths(new Date(), 0), 'hh' + ' aa')}>
+                    update ={"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
 
         </ArticleCards>
         </div>
@@ -50,7 +50,7 @@ const ProfileView = props => <Layout><div class="container">
                     title= "Résultats"
                     id= 'histoire-french-montana'
                     resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
-                    update = {"Updated at " + format(addMonths(new Date(), 0), 'hh' + ' aa')}>
+                    update = {"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
 
         </ArticleCards>
         </div>
