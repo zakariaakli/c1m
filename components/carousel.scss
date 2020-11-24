@@ -5,12 +5,15 @@
     background-size: contain;
   }
 
-.carousel{
-margin-left: 10rem;
-margin-right: 10rem;
-margin-top: 7%;
+.carousel .carousel-item{
+// margin-left: 10rem;
+// margin-right: 10rem;
+// margin-top: 7%;
+  width: 100%;
+  height: 500px;
 
   }
+
 
 @media screen and (max-width: 1024px) {
     .mobileSlider {
