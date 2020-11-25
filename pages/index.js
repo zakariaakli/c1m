@@ -25,7 +25,7 @@ export default function Index() {
                 
                 </div>
                 <SocialmediaBar />
-                <h2 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold", color : "#465c8b" }}>Our blog</h2>
+                <h2 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold", color : "#465c8b" }}>Notre blog | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h2>
                 <Hr />
                 <div className="col-md-12">
                     <div className="container-fluid d-flex justify-content-center">
@@ -39,10 +39,11 @@ export default function Index() {
                             {CardsSecondPart}
                         </div>
                     </div>
-                    <a href="/explore" style={{ marginLeft: '15%', fontSize: 15, color: "#d95179", fontWeight: "bold" }}> SEE MORE ...</a>
+                   
                 </div>
                 <SocialmediaBar />
-                <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>Worldwide news</h2>
+                <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>Nouvelles des célébrités  | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h2>
+               
                 <Hr />
                 <div className="col-md-12">
                     <div className="container-fluid d-flex justify-content-center">
@@ -74,9 +75,9 @@ export default function Index() {
                     </div>
 
                 </div>
-                <a href="/explore" style={{ marginLeft: '15%', fontSize: 15, color: "#d95179", fontWeight: "bold" }}> SEE MORE ...</a>
+               
                 <SocialmediaBar />
-                <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>BEST VIEWED</h2>
+                {/* <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>BEST VIEWED</h2> */}
             </div>
 
         </Layout>

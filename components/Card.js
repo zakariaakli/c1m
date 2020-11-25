@@ -1,5 +1,8 @@
 import './card.scss';
 import Link from "next/link";
+function myFunction() {
+    document.getElementById("demo").style.color = "red";
+}
 
 const Card = props => {
     return(
@@ -9,17 +12,24 @@ const Card = props => {
         </div>
         <div className="card-body text-dark bg-5">
             <h4 className="card-title">
-                <Link href="/posts/[id]" as={`/posts/${props.id}`}>
+                <Link className ="link" href="/posts/[id]" as={`/posts/${props.id}`}>
                 <a>{props.title}</a>
                 </Link>
             </h4>
             <p className="card-text text-secondary">
             {props.resume}
             </p>
+            <hr></hr>
             <div className="d-flex flex-row cardAavatar">
                     <img className="rounded-circle avatar" alt="Z.AKLI" src={props.imgAvatar}
                     data-holder-rendered="true"/>
                     <p className="center" style ={{color : "#465c8b"}}>BY</p> <p className="centerName"><a href="#" >Z.AKLI</a></p>
+                    
+                    {/* <i class="fa fa-heart bg-16" style={{fontSize:18}} ></i> */}
+                   
+                        
+                    
+                    
             </div>
             
         </div>
