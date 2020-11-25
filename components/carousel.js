@@ -1,4 +1,5 @@
 import './carousel.scss';
+import Bouton from './bouton.js'
 
 const Carousel = props => {
 
@@ -8,19 +9,20 @@ const Carousel = props => {
         <div class="carousel-item active">
           <img class="d-block w-100" src="/img/Every child is an artist. The problem is how to remain an artist once we grow up.png" alt="First slide"/>
           <div class="carousel-caption">
-            
+          
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="/img/DAFT PUNK.gif" alt="Second slide"/>
+          
           <div class="carousel-caption bg-13">
-            
+          <Bouton></Bouton>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="/img/FRENCH MONTANA.gif" alt="Third slide"/>
           <div class="carousel-caption">
-            
+          <Bouton></Bouton>  
           </div>
         </div>
       </div>

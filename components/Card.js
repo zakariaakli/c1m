@@ -19,7 +19,7 @@ const Card = props => {
             <div className="d-flex flex-row cardAavatar">
                     <img className="rounded-circle avatar" alt="Z.AKLI" src={props.imgAvatar}
                     data-holder-rendered="true"/>
-                    <p className="center" style ={{color : "#d95179"}}>BY</p> <p className="centerName"><a href="#" >Z.AKLI</a></p>
+                    <p className="center" style ={{color : "#465c8b"}}>BY</p> <p className="centerName"><a href="#" >Z.AKLI</a></p>
             </div>
             
         </div>
