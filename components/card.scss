@@ -24,8 +24,25 @@ body{
 .card-body{
     padding: 1rem 0 !important;
     height: 5rem;
+    
+    
 
 }
+.card-body .card-title .avatar {
+    margin-bottom: calc(50% + 20px);
+    transition: 1.5s ease;
+  }
+.card:hover .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  .card:hover .card-body {
+    height: 50%;
+  }
+  .card:hover .text-secondary {
+    display: block;
+   
+} 
+
 
 .card-text{
     font-size: 0.9rem;
@@ -41,7 +58,7 @@ body{
     transform: scale(1);
     transition: transform 0.5s ease;
     width: 318px;
-    height: 232px;
+    height: 300px;
 }
 
 .card-img-top:hover{
@@ -109,8 +126,12 @@ font-weight: lighter;
     margin-top: 2px;
 }
 
+.text-secondary{
+    display: none;
+}
 
-  
+
+
   
    
   
