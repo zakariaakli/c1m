@@ -39,7 +39,7 @@ const ProfileView = props => <Layout><div class="container">
                     
                     title= "Affrontements"
                     id= 'histoire-french-montana'
-                    resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    resume= '« Nous nous intéressons à la frontière entre la fiction et la réalité, en créant ces personnages fictifs qui existent dans la vraie vie » déclare Thomas dans une interview. En s’intéressant à leurs uniformes, on s’aperçoit que les casques ne sont finalement qu’un complément pour la forme du robot. En effet Thomas et Guy-Manuel sont avant tous fascinés par la technologie et en particulier les robots, ils essayent à travers leur musique et aussi leur long métrage de mettre en avant la place de la technologie dans la vie de nos sociétés. Thomas cite « La technologie possède un caractère à la fois séduisant et effrayant. Le robot est pareil : il peut être cool comme terrifiant. On est stimulés par ce paradoxe. »'
                     update ={"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
 
         </ArticleCards>
