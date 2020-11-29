@@ -12,7 +12,7 @@ const ProfileView = props => <Layout><div class="container">
     <div className = "container">
       <div className = "row">
         <div className = "col">
-        <ArticleCards img = "/img/French_Montana.png"
+        <ArticleCards img = "/img/testdaft.png"
                     
                     title= "La rencontre"
                     id= 'histoire-french-montana'
