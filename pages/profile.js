@@ -14,9 +14,9 @@ const ProfileView = props => <Layout><div class="container">
         <div className = "col">
         <ArticleCards img = "/img/French_Montana.png"
                     
-                    title= "Histoire"
+                    title= "La rencontre"
                     id= 'histoire-french-montana'
-                    resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    resume= 'Thomas et Guy-Manuel se sont rencontrés au lycée Carnot à Paris et devenus rapidement de très proches amis. Ayant les mêmes gouts pour la musique et le cinéma, ils forment à 17 ans leur premier groupe dont le nom était un hommage à une chanson du groupe de pop-rock « The Beach Boys » Darlin’. Selon nos recherches, le premier but de cette première collaboration était de gagner une popularité auprès des demoiselles. « On avait 17 ans et on voulait avoir un groupe de rock comme tout le monde, c’est comme ça que Darlin’ est arrivé » déclare Thomas dans une radio aux USA. Ce même groupe leur vaudra quelques années plus tard le nom Daft Punk que nous connaissons tous.'
                     update = {"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
 
         </ArticleCards>
@@ -24,9 +24,9 @@ const ProfileView = props => <Layout><div class="container">
         <div className="col">
         <ArticleCards img = "/img/fm4.jpg"
                     
-                    title= "Echec"
+                    title= "Echecs et changement de CAP"
                     id= 'histoire-french-montana'
-                    resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    resume= 'Alors que tout semblait bien partir pour le jeune groupe, l’un des premiers morceaux leur a provoqué un virage important de leur carrière. « Les deux morceaux de Darlin’ sont un punk débile nommé Cindy So Loud, ceci est le titre et les seules paroles » une critique avancée par Dave JENNINS journaliste au magasine Melody Maker. Cette critique n’est pas passée sans effets sur le groupe. Daniel DAUXERRE manager de Dalrin’ déclare que cette critique a provoqué un temps d’arrêt pour le groupe. Cette critique a même changé l’optimisme des jeunes pour leur musique. Daniel déclare dans une interview « J’ai dû attendre 6 à 7 mois pour avoir deux morceaux, pas par fénéantise mais parce qu’ils ne voulaient pas aller là, une manière polie de dire on est en train de penser à autre chose ».'
                     update = {"Updated at " + format(addMonths(new Date(), 0), 'h' + 'aa')}>
                     
 
