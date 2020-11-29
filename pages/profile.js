@@ -22,7 +22,7 @@ const ProfileView = props => <Layout><div class="container">
         </ArticleCards>
         </div>
         <div className="col">
-        <ArticleCards img = "/img/fm4.jpg"
+        <ArticleCards img = "/img/daftpunk2.png"
                     
                     title= "Echecs et changement de CAP"
                     id= 'histoire-french-montana'
@@ -35,7 +35,7 @@ const ProfileView = props => <Layout><div class="container">
       </div>
       <div className = "row">
         <div className = "col" >
-        <ArticleCards img = "/img/fm2.jpg"
+        <ArticleCards img = "/img/daftpunk4.png"
                     
                     title= "Affrontements"
                     id= 'histoire-french-montana'
@@ -45,7 +45,7 @@ const ProfileView = props => <Layout><div class="container">
         </ArticleCards>
         </div>
         <div className="col">
-        <ArticleCards img = "/img/fm3.jpg"
+        <ArticleCards img = "/img/daftpunk3.png"
                     
                     title= "Résultats"
                     id= 'histoire-french-montana'
