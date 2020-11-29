@@ -13,7 +13,7 @@ const ArticleCards = data.map((data) => {
                 title= {data.title}
                 id= {data.id}
                 resume= {data.resume}
-                update ={data.update} />
+                />
         </div>
     
     )
