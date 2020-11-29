@@ -24,9 +24,9 @@ const ProfileView = props => <Layout><div class="container">
         <div className="col">
         <ArticleCards img = "/img/daftpunk2.png"
                     
-                    title= "Echecs et changement de CAP"
+                    title= "Changement de Cap"
                     id= 'histoire-french-montana'
-                    resume= 'Alors que tout semblait bien partir pour le jeune groupe, l’un des premiers morceaux leur a provoqué un virage important de leur carrière. « Les deux morceaux de Darlin’ sont un punk débile nommé Cindy So Loud, ceci est le titre et les seules paroles » une critique avancée par Dave JENNINS journaliste au magasine Melody Maker. Cette critique n’est pas passée sans effets sur le groupe. Daniel DAUXERRE manager de Dalrin’ déclare que cette critique a provoqué un temps d’arrêt pour le groupe. Cette critique a même changé l’optimisme des jeunes pour leur musique. Daniel déclare dans une interview « J’ai dû attendre 6 à 7 mois pour avoir deux morceaux, pas par fénéantise mais parce qu’ils ne voulaient pas aller là, une manière polie de dire on est en train de penser à autre chose ».'
+                    resume= 'Alors que tout semblait bien partir pour le jeune groupe, l’un des premiers morceaux a provoqué un virage important de leur carrière. « Les deux morceaux de Darlin’ sont un punk débile nommé Cindy So Loud, ceci est le titre et les seules paroles » critique avancée par Dave JENNINS journaliste au magazine Melody Maker. Daniel DAUXERRE manager de Dalrin’ déclare que cette critique a provoqué un temps d’arrêt pour le groupe. Cette critique a même changé l’optimisme des jeunes envers leur musique. Daniel déclare dans une interview « J’ai dû attendre 6 à 7 mois pour avoir deux morceaux, pas par fénéantise mais parce qu’ils ne voulaient pas aller là, une manière polie de dire on est en train de penser à autre chose »'
                     >
                     
 
@@ -37,9 +37,9 @@ const ProfileView = props => <Layout><div class="container">
         <div className = "col" >
         <ArticleCards img = "/img/daftpunk4.png"
                     
-                    title= "Affrontements"
+                    title= "Casques pour se cacher ?"
                     id= 'histoire-french-montana'
-                    resume= 'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+                    resume= 'Oui mais pas que ... « Nous nous intéressons à la frontière entre la fiction et la réalité, en créant ces personnages fictifs qui existent dans la vraie vie » déclare Thomas dans une interview. En s’intéressant à leurs uniformes, on s’aperçoit que les casques ne sont finalement qu’un complément pour la forme du robot. En effet Thomas et Guy-Manuel sont avant tous fascinés par la technologie et en particulier les robots, ils essayent à travers leur musique et aussi leur long métrage de mettre en avant la place de la technologie dans la vie de nos sociétés. Thomas cite « La technologie possède un caractère à la fois séduisant et effrayant. Le robot est pareil : il peut être cool comme terrifiant. On est stimulés par ce paradoxe. »'
                     >
 
         </ArticleCards>
