@@ -24,9 +24,9 @@ const ProfileView = props => <Layout><div class="container">
         <div className="col">
         <ArticleCards img = "/img/fm4.jpg"
                     
-                    title= "Echecs et changement de CAP"
+                    title= "Changement de Cap"
                     id= 'histoire-french-montana'
-                    resume= 'Alors que tout semblait bien partir pour le jeune groupe, l’un des premiers morceaux leur a provoqué un virage important de leur carrière. « Les deux morceaux de Darlin’ sont un punk débile nommé Cindy So Loud, ceci est le titre et les seules paroles » une critique avancée par Dave JENNINS journaliste au magasine Melody Maker. Cette critique n’est pas passée sans effets sur le groupe. Daniel DAUXERRE manager de Dalrin’ déclare que cette critique a provoqué un temps d’arrêt pour le groupe. Cette critique a même changé l’optimisme des jeunes pour leur musique. Daniel déclare dans une interview « J’ai dû attendre 6 à 7 mois pour avoir deux morceaux, pas par fénéantise mais parce qu’ils ne voulaient pas aller là, une manière polie de dire on est en train de penser à autre chose ».'
+                    resume= 'Alors que tout semblait bien partir pour le jeune groupe, l’un des premiers morceaux a provoqué un virage important de leur carrière. « Les deux morceaux de Darlin’ sont un punk débile nommé Cindy So Loud, ceci est le titre et les seules paroles » critique avancée par Dave JENNINS journaliste au magazine Melody Maker. Daniel DAUXERRE manager de Dalrin’ déclare que cette critique a provoqué un temps d’arrêt pour le groupe. Cette critique a même changé l’optimisme des jeunes envers leur musique. Daniel déclare dans une interview « J’ai dû attendre 6 à 7 mois pour avoir deux morceaux, pas par fénéantise mais parce qu’ils ne voulaient pas aller là, une manière polie de dire on est en train de penser à autre chose »'
                     >
                     
 
