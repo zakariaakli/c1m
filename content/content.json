@@ -1,6 +1,14 @@
 {
     "content" : [
         {
+            "img" : "/img/daftpunk4.png", 
+            "imgAvatar" : "/img/Zack.jpg", 
+            "title" : "Daft Punk | Révolution de la musique électro", 
+            "id" : "daft-punk-revolution-de-la-musique-electro", 
+            "resume"  : "« Nous nous intéressons à la frontière entre la fiction et la réalité, en créant ces personnages fictifs ...", 
+            "type": 1
+        }, 
+        {
             "img" : "/img/IMG_0980.jpg", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep01", 
@@ -43,6 +51,7 @@
             "resume"  : "Le chanteur a profité de cette occasion pour fêter la victoire de Joe BIDEN dans les élections prési...", 
             "insta" : "https://www.instagram.com/p/CHaVo50pVYF/?utm_source=ig_web_copy_link"
         }
+        
         
     ]
 }
