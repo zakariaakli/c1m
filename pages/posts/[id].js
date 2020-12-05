@@ -8,8 +8,6 @@ import idCss from './id.scss'
 import InstagramEmbed from 'react-instagram-embed';
 import ArticleCards from "../../components/ArticleCard"
 
-
-
 export default function Post({ postData }) {
   return (<Layout>
     <Head>
@@ -25,8 +23,6 @@ export default function Post({ postData }) {
               <Date dateString={postData.date} />
             </div>
             <div className="cont">
-              {/* Element à ajouter au moment de l'ajout des cartes */}
-              {/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml1 }} /> */}
               <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               {postData.insta ?
                 <InstagramEmbed
@@ -53,7 +49,6 @@ export default function Post({ postData }) {
                         title={postData.title1}
                         resume={postData.card1}
                       >
-
                       </ArticleCards>
                     </div>
                     <div className="col"></div>
@@ -63,7 +58,6 @@ export default function Post({ postData }) {
                         title={postData.title2}
                         resume={postData.card2}
                       >
-
                       </ArticleCards>
                     </div>
                   </div>
@@ -74,7 +68,6 @@ export default function Post({ postData }) {
                         title={postData.title3}
                         resume={postData.card3}
                       >
-                        
                       </ArticleCards>
                     </div>
                     <div className="col"></div>
@@ -90,7 +83,6 @@ export default function Post({ postData }) {
                 </div>
                 : null
               }
-
             </div>
           </div>
         </article>

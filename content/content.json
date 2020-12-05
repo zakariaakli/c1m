@@ -9,6 +9,14 @@
             "type": 1
         }, 
         {
+            "img" : "/img/IMG_1511.jpg", 
+            "imgAvatar" : "/img/Zack.jpg", 
+            "title" : "French Montana | Un Anniversaire exceptionnel", 
+            "id" : "french-montana-anniversaire-us-election", 
+            "resume"  : "Le chanteur a profité de cette occasion pour fêter la victoire de Joe BIDEN dans les élections prési...", 
+            "insta" : "https://www.instagram.com/p/CHaVo50pVYF/?utm_source=ig_web_copy_link"
+        },
+        {
             "img" : "/img/IMG_0980.jpg", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep01", 
@@ -42,15 +50,8 @@
             "title" : "Premier voyage à vélo | Ep01", 
             "id" : "premier-voyage-a-velo-ep01", 
             "resume"  : "Mon nouveau moyen de transport qui m’a couté 50 Euros, est vite devenu mon préféré. Ce vélo m’a ..."
-        }, 
-        {
-            "img" : "/img/IMG_1511.jpg", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "French Montana, un Anniversaire exceptionnel", 
-            "id" : "french-montana-anniversaire-us-election", 
-            "resume"  : "Le chanteur a profité de cette occasion pour fêter la victoire de Joe BIDEN dans les élections prési...", 
-            "insta" : "https://www.instagram.com/p/CHaVo50pVYF/?utm_source=ig_web_copy_link"
         }
+       
         
         
     ]
