@@ -29,6 +29,7 @@ export default function explore() {
                         </div>
                     </div>
                 </div>
+                <SocialmediaBar />
             </div>
         </Layout>
     )

@@ -1,5 +1,5 @@
 ---
-title: "French Montana faite la victoire de Joe BIDEN le jour de son anniversaire"
+title: "French Montana fête la victoire de Joe BIDEN le jour de son anniversaire"
 date: "2020-11-10"
 ---
 
