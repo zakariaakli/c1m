@@ -41,7 +41,7 @@ export default function Index() {
                     </div>
                    
                 </div>
-                <SocialmediaBar />
+                {/* <SocialmediaBar />
                 <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>Nouvelles des célébrités  | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h2>
                
                 <Hr />
@@ -74,7 +74,7 @@ export default function Index() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
                
                 <SocialmediaBar />
                 {/* <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>BEST VIEWED</h2> */}

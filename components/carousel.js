@@ -16,7 +16,7 @@ const Carousel = props => {
           <img class="d-block w-100" src="/img/DAFT PUNK.gif" alt="Second slide"/>
           
           <div class="carousel-caption bg-13">
-          <Bouton></Bouton>
+          <Bouton link = "posts/daft-punk-revolution-de-la-musique-electro"></Bouton>
           </div>
         </div>
         <div class="carousel-item">

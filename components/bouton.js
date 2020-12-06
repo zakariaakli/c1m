@@ -1,7 +1,11 @@
-function boutton(){
+
+
+function boutton(props){
     return(
         <div class = "container">
-            <button type="button" class="btn btn-outline-warning btn-lg btn-block">Cliquez ici pour voir l'article</button>
+            <button type="button" class="btn btn-outline-warning btn-lg btn-block">
+            <a href={props.link}> Cliquez ici pour voir l'article </a>
+            </button>
         </div>
     )
 }
