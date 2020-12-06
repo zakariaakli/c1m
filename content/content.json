@@ -1,7 +1,7 @@
 {
     "content" : [
         {
-            "img" : "/img/daftpunk4.png", 
+            "img" : "/img/DaftPunkHomePic.png", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Daft Punk | Révolution de la musique électro", 
             "id" : "daft-punk-revolution-de-la-musique-electro", 
@@ -17,35 +17,35 @@
             "insta" : "https://www.instagram.com/p/CHaVo50pVYF/?utm_source=ig_web_copy_link"
         },
         {
-            "img" : "/img/IMG_0980.jpg", 
+            "img" : "/img/Véloep1.png", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep01", 
             "id" : "premier-voyage-a-velo-ep01", 
             "resume"  : "Mon nouveau moyen de transport qui m’a couté 50 Euros, est vite devenu mon préféré. Ce vélo m’a ..."
         }, 
         {
-            "img" : "/img/IMG_0914.jpg", 
+            "img" : "/img/Véloep2.png", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep02", 
             "id" : "premier-voyage-a-velo-ep02", 
             "resume"  : "Je décide tout simplement d’offrir une semaine de congés à tous les sujets qui occupent mon cer ..."
         }, 
         {
-            "img" : "/img/IMG_1088.jpg", 
+            "img" : "/img/Véloep3.png", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep03", 
             "id" : "premier-voyage-a-velo-ep03", 
             "resume"  : "On a l’impression que le grand monde présent est là pour nous, pour nous accueillir ..."
         }, 
         {
-            "img" : "/img/IMG_0917.jpg", 
+            "img" : "/img/Véloep4.png", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep04", 
             "id" : "premier-voyage-a-velo-ep04", 
             "resume"  : "Nous apprenons que le château est une propriété privée qui n’est accessible au publ ..."
         }, 
         {
-            "img" : "/img/IMG_0980.jpg", 
+            "img" : "/img/Véloep1.png", 
             "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Premier voyage à vélo | Ep01", 
             "id" : "premier-voyage-a-velo-ep01", 
