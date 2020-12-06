@@ -75,7 +75,7 @@ export default function Post({ postData }) {
                       <ArticleCards
                         img={postData.img4}
                         title={postData.title4}
-                        resume={postData.card4}
+                        resume=  {postData.card4}
                       >
                       </ArticleCards>
                     </div>
