@@ -1,58 +1,66 @@
 {
     "content" : [
         {
-            "img" : "/img/DaftPunkHomePic.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "Daft Punk | Révolution de la musique électro", 
-            "id" : "daft-punk-revolution-de-la-musique-electro", 
-            "resume"  : "« Nous nous intéressons à la frontière entre la fiction et la réalité, en créant ces personnages fictifs ...", 
+            "img" : "/img/french-montana.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "French Montana | Le rêve américain",
+            "id" : "french-montana-reve-americain",
+            "resume"  : "« Ça m’a rappelé de la balle que j’avais pris dans la tête quand j’avais 19ans c’est vraiment triste … »",
             "type": 1
-        }, 
+        },
         {
-            "img" : "/img/FrenchMontanaHomePic.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "French Montana | Un Anniversaire exceptionnel", 
-            "id" : "french-montana-anniversaire-us-election", 
-            "resume"  : "Le chanteur a profité de cette occasion pour fêter la victoire de Joe BIDEN dans les élections prési...", 
+            "img" : "/img/DaftPunkHomePic.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "Daft Punk | Révolution de la musique électro",
+            "id" : "daft-punk-revolution-de-la-musique-electro",
+            "resume"  : "« Nous nous intéressons à la frontière entre la fiction et la réalité, en créant ces personnages fictifs ...",
+            "type": 1
+        },
+        {
+            "img" : "/img/FrenchMontanaHomePic.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "French Montana | Un Anniversaire exceptionnel",
+            "id" : "french-montana-anniversaire-us-election",
+            "resume"  : "Le chanteur a profité de cette occasion pour fêter la victoire de Joe BIDEN dans les élections prési...",
             "insta" : "https://www.instagram.com/p/CHaVo50pVYF/?utm_source=ig_web_copy_link"
         },
         {
-            "img" : "/img/Véloep1.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "Premier voyage à vélo | Ep01", 
-            "id" : "premier-voyage-a-velo-ep01", 
+            "img" : "/img/Véloep1.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "Premier voyage à vélo | Ep01",
+            "id" : "premier-voyage-a-velo-ep01",
             "resume"  : "Mon nouveau moyen de transport qui m’a couté 50 Euros, est vite devenu mon préféré. Ce vélo m’a ..."
-        }, 
+        },
         {
-            "img" : "/img/Véloep2.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "Premier voyage à vélo | Ep02", 
-            "id" : "premier-voyage-a-velo-ep02", 
+            "img" : "/img/Véloep2.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "Premier voyage à vélo | Ep02",
+            "id" : "premier-voyage-a-velo-ep02",
             "resume"  : "Je décide tout simplement d’offrir une semaine de congés à tous les sujets qui occupent mon cer ..."
-        }, 
+        },
         {
-            "img" : "/img/Véloep3.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "Premier voyage à vélo | Ep03", 
-            "id" : "premier-voyage-a-velo-ep03", 
+            "img" : "/img/Véloep3.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "Premier voyage à vélo | Ep03",
+            "id" : "premier-voyage-a-velo-ep03",
             "resume"  : "On a l’impression que le grand monde présent est là pour nous, pour nous accueillir ..."
-        }, 
+        },
         {
-            "img" : "/img/Véloep4.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "Premier voyage à vélo | Ep04", 
-            "id" : "premier-voyage-a-velo-ep04", 
+            "img" : "/img/Véloep4.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "Premier voyage à vélo | Ep04",
+            "id" : "premier-voyage-a-velo-ep04",
             "resume"  : "Nous apprenons que le château est une propriété privée qui n’est accessible au publ ..."
-        }, 
+        },
         {
-            "img" : "/img/Véloep1.png", 
-            "imgAvatar" : "/img/Zack.jpg", 
-            "title" : "Premier voyage à vélo | Ep01", 
-            "id" : "premier-voyage-a-velo-ep01", 
+            "img" : "/img/Véloep1.png",
+            "imgAvatar" : "/img/Zack.jpg",
+            "title" : "Premier voyage à vélo | Ep01",
+            "id" : "premier-voyage-a-velo-ep01",
             "resume"  : "Mon nouveau moyen de transport qui m’a couté 50 Euros, est vite devenu mon préféré. Ce vélo m’a ..."
         }
-       
-        
-        
+
+
+
     ]
 }
