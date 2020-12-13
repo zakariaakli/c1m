@@ -3,6 +3,14 @@
         {
             "img" : "/img/DaftPunkHomePic.png", 
             "imgAvatar" : "/img/Zack.jpg", 
+            "title" : "French Montana | Le rêve américain", 
+            "id" : "french-montana-reve-americain", 
+            "resume"  : "« Ça m’a rappelé de la balle que j’avais pris dans la tête quand j’avais 19ans c’est vraiment triste … »", 
+            "type": 1
+        },
+        {
+            "img" : "/img/DaftPunkHomePic.png", 
+            "imgAvatar" : "/img/Zack.jpg", 
             "title" : "Daft Punk | Révolution de la musique électro", 
             "id" : "daft-punk-revolution-de-la-musique-electro", 
             "resume"  : "« Nous nous intéressons à la frontière entre la fiction et la réalité, en créant ces personnages fictifs ...", 
