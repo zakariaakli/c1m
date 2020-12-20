@@ -7,7 +7,7 @@ const Carousel = props => {
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="/img/Every child is an artist. The problem is how to remain an artist once we grow up.png" alt="First slide"/>
+          <img class="d-block w-100" src="/img/noelcarroussel.gif" alt="First slide"/>
           <div class="carousel-caption">
           
           </div>

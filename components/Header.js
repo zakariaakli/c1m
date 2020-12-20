@@ -7,7 +7,7 @@ import NavBar from './NavBar'
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-4 fixed-top">
-      <a className="navbar-brand" href="/"><img src='/img/logo.arts.png' alt="log arts.c-1m blog" style={{ height: 50, width: 60}}></img></a>
+      <a className="navbar-brand" href="/"><img src='/img/logonoel.png' alt="log arts.c-1m blog" style={{ height: 50, width: 60}}></img></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
