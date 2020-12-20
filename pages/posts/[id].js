@@ -24,21 +24,7 @@ export default function Post({ postData }) {
             </div>
             <div className="cont">
               <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-              {postData.insta ?
-                <InstagramEmbed
-                  url={postData.insta}
-                  clientAccessToken='1068148143638626|a9b9853d87fb33cdc31ac2ad0426818d'
-                  maxWidth={320}
-                  hideCaption={false}
-                  containerTagName='div'
-                  protocol=''
-                  injectScript
-                  onLoading={() => { }}
-                  onSuccess={() => { }}
-                  onAfterRender={() => { }}
-                  onFailure={() => { }}
-                /> : null
-              }
+
               {/* manage cards */}
               {postData.postType == 1 ?
                 <div>
@@ -75,13 +61,30 @@ export default function Post({ postData }) {
                       <ArticleCards
                         img={postData.img4}
                         title={postData.title4}
-                        resume=  {postData.card4}
+                        resume={postData.card4}
                       >
                       </ArticleCards>
                     </div>
                   </div>
                 </div>
                 : null
+              }
+
+              <hr/>
+              {postData.insta ?
+                <InstagramEmbed
+                  url={postData.insta}
+                  clientAccessToken='1068148143638626|a9b9853d87fb33cdc31ac2ad0426818d'
+                  maxWidth={320}
+                  hideCaption={false}
+                  containerTagName='div'
+                  protocol=''
+                  injectScript
+                  onLoading={() => { }}
+                  onSuccess={() => { }}
+                  onAfterRender={() => { }}
+                  onFailure={() => { }}
+                /> : null
               }
             </div>
           </div>

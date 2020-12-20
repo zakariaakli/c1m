@@ -6,7 +6,8 @@ function myFunction() {
 
 const Card = props => {
     return(
-        <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 border-right-0" >
+           
+        <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 border-right-0 bg-16" >
         <div className="overflow">
           <img src = {props.img} alt={props.title} className="card-img-top "></img> 
         </div>
@@ -23,7 +24,7 @@ const Card = props => {
             <div className="d-flex flex-row cardAavatar">
                     <img className="rounded-circle avatar" alt="Z.AKLI" src={props.imgAvatar}
                     data-holder-rendered="true"/>
-                    <p className="center" style ={{color : "#465c8b"}}>BY</p> <p className="centerName"><a href="#" >Zak</a></p>
+                    <p className="center" style ={{color : "#465c8b"}}>BY</p> <p className="centerName"><a href="#" >Zack</a></p>
                     
                     {/* <i class="fa fa-heart bg-16" style={{fontSize:18}} ></i> */}
                    
@@ -34,6 +35,7 @@ const Card = props => {
             
         </div>
     </div>
+
     
     )
 }
