@@ -34,6 +34,7 @@ export default function Post({ postData }) {
                         img={postData.img1}
                         title={postData.title1}
                         resume={postData.card1}
+                        imgAlt={postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -43,6 +44,7 @@ export default function Post({ postData }) {
                         img={postData.img2}
                         title={postData.title2}
                         resume={postData.card2}
+                        imgAlt={postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -53,6 +55,7 @@ export default function Post({ postData }) {
                         img={postData.img3}
                         title={postData.title3}
                         resume={postData.card3}
+                        imgAlt={postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -62,6 +65,7 @@ export default function Post({ postData }) {
                         img={postData.img4}
                         title={postData.title4}
                         resume={postData.card4}
+                        imgAlt={postData.title}
                       >
                       </ArticleCards>
                     </div>
