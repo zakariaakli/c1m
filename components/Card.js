@@ -10,7 +10,7 @@ const Card = props => {
         <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 border-right-0 bg-16" >
             <div className="overflow">
                 <Link className="link" href="/posts/[id]" as={`/posts/${props.id}`}>
-                   <a> <img src={props.img} alt={props.title} className="card-img-top "></img> </a>
+                    <a> <img src={props.img} alt={props.title} className="card-img-top "></img> </a>
                 </Link>
             </div>
             <div className="card-body text-dark bg-5">
@@ -20,7 +20,10 @@ const Card = props => {
                     </Link>
                 </h4>
                 <p className="card-text text-secondary">
-                    {props.resume}
+                    <Link className="link" href="/posts/[id]" as={`/posts/${props.id}`}>
+                        <a>{props.resume}</a>
+                    </Link>
+
                 </p>
                 <hr></hr>
                 <div className="d-flex flex-row cardAavatar">
