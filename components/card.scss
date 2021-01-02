@@ -5,7 +5,7 @@ body{
     // justify-content: center;
     // background-color: #eee;
     // padding: 0 1.5rem;
-    
+
     border-radius: 30px;
 }
 
@@ -13,19 +13,19 @@ body{
     width: 20rem;
     height: 28rem;
     border-radius: 30px;
-    
-    
+
+
 }
 
 .card:hover{
     box-shadow: 5px 10px 20px 1px rgba(0,0,0,0.253) !important;
-    
+
 }
 
 .card-body{
     padding: 1rem 0 !important;
     height: 5rem;
-    
+
 }
 .card-body .card-title .avatar {
     margin-bottom: calc(50% + 20px);
@@ -39,8 +39,8 @@ body{
   }
   .card:hover .text-secondary {
     display: block;
-   
-} 
+
+}
 
 
 .card-text{
@@ -50,7 +50,7 @@ body{
 
 
 .overflow {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .card-img-top{
@@ -60,9 +60,7 @@ body{
     height: 300px;
 }
 
-.card-img-top:hover{
-    transform: scale(1.1);
-}
+
 
 .avatar {
     vertical-align: left;
@@ -100,7 +98,7 @@ font-weight: lighter;
 }
 .bg-16:hover, .bg-16:focus{
     color: rgb(235, 193, 6);
-  
+
 }
 .bg-16:focus{
     color: red;
@@ -108,10 +106,10 @@ font-weight: lighter;
 }
 
 .card-title:hover{
-    
-    
+
+
     color: rgb(235, 193, 6);
-    
+
 
 }
 
@@ -131,8 +129,7 @@ font-weight: lighter;
 
 
 
-  
-   
-  
-  
-  
+
+
+
+
