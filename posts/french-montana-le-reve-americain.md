@@ -1,6 +1,8 @@
 ---
 type: "card"
-title: "French Montana | Le rêve américain"
+title: "French Montana | De la souffrance migratoire au rêve américain"
+h1: "French Montana | Comment la souffrance peut conduire à réaliser le rêve américain ?"
+description: "French Montana. Une expérience artistique inédite a permis à French Montana de réaliser le rêve américain."
 date: "2020-12-12"
 title1: "Le rêve américain"
 img1: "/img/FrenchMontanaReve.png"

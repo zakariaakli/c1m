@@ -9,28 +9,32 @@ import Hr from '../components/separator';
 import SocialmediaBar from '../components/socialmediaBar';
 import Cards from '../components/Cards';
 import CardsSecondPart from '../components/CardsSecondPart';
-import Boutton from '../components/bouton'
+import Boutton from '../components/bouton';
+import { DefaultSeo } from 'next-seo';
+import SEO from '../next-seo.config';
 
 export default function Index() {
     return (
 
+
         <Layout>
-            <Head>
+            <DefaultSeo {...SEO} />
+            {/* <Head>
                 <title>arts.c-1m | Le Blog des jeunes artistes</title>
                 <meta name="description" content="blog pour jeunes artistes, experiences artistiques, reussites et echecs des jeunes artistes, incubateur de talents" />
-            </Head>
+            </Head> */}
             <div className="row">
                 <div className="col-md-12"><Carousel></Carousel>
                 </div>
                 <SocialmediaBar />
-                
+
                 <h1 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold", color : "#465c8b" }}>Tendances Artistiques | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h1>
                 <Hr />
                 <div className="col-md-12">
                     <div className="container-fluid d-flex justify-content-center">
-                    
+
                         <div className="row">
-                            
+
                             {Cards}
                         </div>
                     </div>
@@ -40,11 +44,11 @@ export default function Index() {
                             {CardsSecondPart}
                         </div>
                     </div>
-                   
+
                 </div>
                 {/* <SocialmediaBar />
                 <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>Nouvelles des célébrités  | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h2>
-               
+
                 <Hr />
                 <div className="col-md-12">
                     <div className="container-fluid d-flex justify-content-center">
@@ -76,7 +80,7 @@ export default function Index() {
                     </div>
 
                 </div> */}
-               
+
                 <SocialmediaBar />
                 {/* <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>BEST VIEWED</h2> */}
             </div>

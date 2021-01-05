@@ -13,9 +13,6 @@ import navButtons from "../config/buttons";
 import SocialmediaBar from '../components/socialmediaBar'
 
 const Layout = props => {
-  //const appTitle = `C-1m | Blog`;
-
-
   return (
     <div className="Layout">
       <Head>
@@ -23,7 +20,7 @@ const Layout = props => {
         <meta charSet="utf-8" />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv='content-language' content='fr-fr' />
-        <meta name="keywords" content="arts, art, motivation pour artistes, jeunes talents, experiences artistiques, echecs artistes ,reussites artistes" />
+        {/* <meta name="keywords" content="arts, art, motivation pour artistes, jeunes talents, experiences artistiques, echecs artistes ,reussites artistes" /> */}
         <link rel="shortcut icon" href="/static/favicon.ico" />
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" ></link>
