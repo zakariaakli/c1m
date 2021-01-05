@@ -1,50 +1,45 @@
 
-      <?xml version="1.0" encoding="UTF-8"?>
-      <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-          
-                      <url>
-                          <loc>https://arts.c-1m.com//explore</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com//profile</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/daft-punk-revolution-de-la-musique-electro</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/french-montana-anniversaire-us-election</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/french-montana-reve-americain</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep01</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep02</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep03</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep04</loc>
-                      </url>
-                  
-                      <url>
-                          <loc>https://arts.c-1m.com/posts/vive-le-vent-jingle-bells-edito-noel</loc>
-                      </url>
-                  
-      </urlset>
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+<loc>https://arts.c-1m.com//explore</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/daft-punk-experience-artistique-inedite</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/french-montana-anniversaire-us-election</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/french-montana-le-reve-americain</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep01</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep02</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep03</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/premier-voyage-a-velo-ep04</loc>
+</url>
+
+<url>
+<loc>https://arts.c-1m.com/posts/vive-le-vent-jingle-bells-edito-noel</loc>
+</url>
+
+</urlset>

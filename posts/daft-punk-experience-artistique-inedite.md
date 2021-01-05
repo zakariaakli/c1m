@@ -1,6 +1,8 @@
 ---
 type: "card"
-title: "Daft Punk | Révolution de la musique électro"
+title: "Daft Punk | Expérience artistique & Révolution de la musique électro."
+h1: "Daft Punk | Comment Thomas et Guy-Manuel nous ont livré expérience artistique inédite ?"
+description: "Daft Punk. Une expérience artistique inédite, comment le duo a provoqué une révolution de la musique électronique mondiale ?"
 date: "2020-12-05"
 title1: "La rencontre"
 img1: "/img/testdaft.png"
@@ -16,5 +18,5 @@ img4: "/img/daftpunk3.png"
 card4: "3 concepts résument les secrets du succès des Daft Punk : Maitrise, Contrôle, Essay.
 Maitrise : Thomas est décrit comme un géni de la machine, il consulte les manuels d’instructions des instruments chaque mois.
 Contrôle : Les contrats signés entre Daft Punk et les maisons de disque ont toujours fait l’objet d’une analyse approfondie. Daft Punk contrôlaient leur image, leur musique, ainsi que la distribution de leurs albums.
-Essay : Daft Punk n’est pas seulement un groupe de musique, mais ils ont essayé d’autres branches artistiques comme le cinéma, les films d’animation, et bien d’autres."
+Essay : Daft Punk n’est pas seulement un groupe de musique, mais ils ont essayé d’autres branches artistiques comme le cinéma, les films d’animation, et bien d’autres. Tous ces atouts réunis ont permis au mode de la musique électro d’assister à une expérience artistique inédite."
 ---

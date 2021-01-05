@@ -6,19 +6,38 @@ import utilStyles from '../../scripts/dynamicContent.scss'
 import Carousel from '../../components/carousel'
 import idCss from './id.scss'
 import InstagramEmbed from 'react-instagram-embed';
-import ArticleCards from "../../components/ArticleCard"
+import ArticleCards from "../../components/ArticleCard";
+import { NextSeo } from 'next-seo';
 
 export default function Post({ postData }) {
+  console.log(postData);
+  const SEO = {
+    title: `${postData.title}`,
+    description: `${postData.description ? postData.description : postData.title}`,
+    locale: 'fr',
+    openGraph: {
+        title: `${postData.title}`,
+        description: `${postData.description ? postData.description : postData.title}`,
+        type: 'website',
+        image: `${postData.img1}`,
+        url: 'https://arts.c-1m.com/' + `${postData.id}`,
+        locale: 'fr',
+        site_name: 'arts.c-1m',
+    },
+    twitter: {
+        handle: '@ArtsC1m',
+        site: '@ArtsC1m',
+        cardType: 'summary_large_image',
+    }
+
+  }
   return (<Layout>
-    <Head>
-      <title>{postData.title}</title>
-      <meta name="description" content={postData.title}></meta>
-    </Head>
+    <NextSeo {...SEO} />
     <div className="row">
       <div className="col-md-12">
         <article>
           <div className="ContTitle">
-            <h1 className={utilStyles.headingXl}>{postData.title}</h1>
+            <h1 className={utilStyles.headingXl}>{postData.h1 ? postData.h1 : postData.title}</h1>
             <div className={utilStyles.lightText}>
               <Date dateString={postData.date} />
             </div>
