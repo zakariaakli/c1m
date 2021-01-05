@@ -20,7 +20,7 @@ export default function Post({ postData }) {
         description: `${postData.description ? postData.description : postData.title}`,
         type: 'website',
         image: `${postData.img1}`,
-        url: 'https://arts.c-1m.com/' + `${postData.id}`,
+        url: 'https://arts.c-1m.com/posts/' + `${postData.id}`,
         locale: 'fr',
         site_name: 'arts.c-1m',
     },
