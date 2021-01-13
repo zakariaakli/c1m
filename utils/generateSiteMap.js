@@ -7,7 +7,7 @@ async function generateSiteMap() {
     '!pages/_*.js',
     '!pages/**/[id].js',
     '!pages/api',
-    'posts/*.md'
+    'arts/*.md'
   ])
 
   const sitemap = `
@@ -22,7 +22,7 @@ async function generateSiteMap() {
               const route = path === '/index' ? '' : path
               return `
                       <url>
-                          <loc>${`https://arts.c-1m.com/${route}`}</loc>
+                          <loc>${`https://c-1m.com/${route}`}</loc>
                       </url>
                   `
             })

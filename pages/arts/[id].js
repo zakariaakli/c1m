@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout';
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import { getAllPostIds, getPostData } from '../../lib/arts'
 import Head from 'next/head'
 import Date from '../../components/Date'
 import utilStyles from '../../scripts/dynamicContent.scss'
@@ -20,7 +20,7 @@ export default function Post({ postData }) {
         description: `${postData.description ? postData.description : postData.title}`,
         type: 'website',
         image: `${postData.img1}`,
-        url: 'https://arts.c-1m.com/posts/' + `${postData.id}`,
+        url: 'https://arts.c-1m.com/arts/' + `${postData.id}`,
         locale: 'fr',
         site_name: 'arts.c-1m',
     },
