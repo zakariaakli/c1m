@@ -1,9 +1,9 @@
-import Layout from "../components/Layout";
-import Cards from '../components/Cards';
-import CardsSecondPart from '../components/CardsSecondPart';
-import Hr from '../components/separator'; 
-import SocialmediaBar from '../components/socialmediaBar'; 
-import Head from 'next/head'; 
+import Layout from "../../components/Layout";
+import Cards from '../../components/Cards';
+import CardsSecondPart from '../../components/CardsSecondPart';
+import Hr from '../../components/separator';
+import SocialmediaBar from '../../components/socialmediaBar';
+import Head from 'next/head';
 
 export default function explore() {
     return (

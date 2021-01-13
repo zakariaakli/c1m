@@ -19,7 +19,7 @@ async function generateSiteMap() {
           .replace('pages', '')
           .replace('.js', '')
           .replace('.md', '')
-        const route = (path === '/index') ? '' : ((path === '/explore') ? ('explore') : (path))
+        const route = (path === '/index') ? '' : ((path === '/arts/explore') ? ('explore') : (path))
 
         return `
                       <url>

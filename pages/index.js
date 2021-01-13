@@ -28,7 +28,7 @@ export default function Index() {
                 </div>
                 <SocialmediaBar />
 
-                <h1 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold", color : "#465c8b" }}>Tendances Artistiques | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h1>
+                <h1 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold", color : "#465c8b" }}>Tendances Artistiques | <a href="/arts/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h1>
                 <Hr />
                 <div className="col-md-12">
                     <div className="container-fluid d-flex justify-content-center">
