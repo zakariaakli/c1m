@@ -9,20 +9,20 @@ const Carousel = props => {
         <div class="carousel-item active">
           <img class="d-block w-100" src="/img/noelcarroussel.gif" alt="First slide"/>
           <div class="carousel-caption">
-          
+
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="/img/DAFT PUNK.gif" alt="Second slide"/>
-          
+
           <div class="carousel-caption bg-13">
-          <Bouton link = "posts/daft-punk-revolution-de-la-musique-electro"></Bouton>
+          <Bouton link = "arts/daft-punk-revolution-de-la-musique-electro"></Bouton>
           </div>
         </div>
         <div class="carousel-item">
           <img class="d-block w-100" src="/img/FRENCH MONTANA.gif" alt="Third slide"/>
           <div class="carousel-caption">
-          <Bouton></Bouton>  
+          <Bouton></Bouton>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@ const Carousel = props => {
         <span class="sr-only">Next</span>
       </a>
     </div>
-    
+
     )
 }
 
