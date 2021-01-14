@@ -16,18 +16,18 @@ export default function Post({ postData }) {
     description: `${postData.description ? postData.description : postData.title}`,
     locale: 'fr',
     openGraph: {
-        title: `${postData.title}`,
-        description: `${postData.description ? postData.description : postData.title}`,
-        type: 'website',
-        image: `${postData.img1}`,
-        url: 'https://arts.c-1m.com/arts/' + `${postData.id}`,
-        locale: 'fr',
-        site_name: 'arts.c-1m',
+      title: `${postData.title}`,
+      description: `${postData.description ? postData.description : postData.title}`,
+      type: 'website',
+      image: `${postData.img1}`,
+      url: 'https://arts.c-1m.com/arts/' + `${postData.id}`,
+      locale: 'fr',
+      site_name: 'arts.c-1m',
     },
     twitter: {
-        handle: '@ArtsC1m',
-        site: '@ArtsC1m',
-        cardType: 'summary_large_image',
+      handle: '@ArtsC1m',
+      site: '@ArtsC1m',
+      cardType: 'summary_large_image',
     }
 
   }
@@ -53,7 +53,7 @@ export default function Post({ postData }) {
                         img={postData.img1}
                         title={postData.title1}
                         resume={postData.card1}
-                        imgAlt={postData.title}
+                        imgAlt={postData.descImg1 ? postData.descImg1 : postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -63,7 +63,7 @@ export default function Post({ postData }) {
                         img={postData.img2}
                         title={postData.title2}
                         resume={postData.card2}
-                        imgAlt={postData.title}
+                        imgAlt={postData.descImg2 ? postData.descImg2 : postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -74,7 +74,7 @@ export default function Post({ postData }) {
                         img={postData.img3}
                         title={postData.title3}
                         resume={postData.card3}
-                        imgAlt={postData.title}
+                        imgAlt={postData.descImg3 ? postData.descImg3 : postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -84,7 +84,7 @@ export default function Post({ postData }) {
                         img={postData.img4}
                         title={postData.title4}
                         resume={postData.card4}
-                        imgAlt={postData.title}
+                        imgAlt={postData.descImg4 ? postData.descImg4 : postData.title}
                       >
                       </ArticleCards>
                     </div>
@@ -93,7 +93,7 @@ export default function Post({ postData }) {
                 : null
               }
 
-              <hr/>
+              <hr />
               {postData.insta ?
                 <InstagramEmbed
                   url={postData.insta}
