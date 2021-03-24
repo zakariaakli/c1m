@@ -31,9 +31,12 @@ const Layout = props => {
         <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script src="https://cdn.rawgit.com/download/glyphicons/0.1.0/glyphicons.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet"></link>
       </Head>
 
       <Header />
+      
       <div
         className="Content">{props.children}
 

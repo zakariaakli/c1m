@@ -13,9 +13,9 @@ function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav"  >
         <ul className="navbar-nav">
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <a className="nav-link" href="/profile">About us</a>
-          </li> */}
+          </li>
         </ul>
       </div>
     </nav>

@@ -2,31 +2,36 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
 import Head from "next/head";
-
+import AboutUs from "../components/aboutUs"
 import Card from "../components/Card";
 import Carousel from "../components/carousel";
 import Hr from '../components/separator';
 import SocialmediaBar from '../components/socialmediaBar';
 import Cards from '../components/Cards';
 import CardsSecondPart from '../components/CardsSecondPart';
-import Boutton from '../components/bouton'
+import Boutton from '../components/bouton';
+import Services from '../components/Services';
+import Contact from '../components/Contact'
+import Header from "../components/Header";
 
 export default function Index() {
     return (
-
+        
         <Layout>
+            
             <Head>
                 <title>arts.c-1m | Le Blog des jeunes artistes</title>
                 <meta name="description" content="blog pour jeunes artistes, experiences artistiques, reussites et echecs des jeunes artistes, incubateur de talents" />
             </Head>
-            <div className="row">
-                <div className="col-md-12"><Carousel></Carousel>
-                </div>
+            <div className="row text-center">
+                <div className="col-md-12"><Carousel></Carousel><AboutUs></AboutUs>
+            </div>
                 <SocialmediaBar />
                 
-                <h1 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold", color : "#465c8b" }}>Tendances Artistiques | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h1>
-                <Hr />
+               
+                
                 <div className="col-md-12">
+                <h1 class = 'text-center'>Tendances Artistiques </h1>
                     <div className="container-fluid d-flex justify-content-center">
                     
                         <div className="row">
@@ -42,6 +47,8 @@ export default function Index() {
                     </div>
                    
                 </div>
+                <Services></Services>
+                <Contact></Contact>
                 {/* <SocialmediaBar />
                 <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>Nouvelles des célébrités  | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h2>
                

@@ -36,6 +36,7 @@ const Carousel = props => {
       </a>
     </div>
     
+    
     )
 }
 
