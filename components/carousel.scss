@@ -1,6 +1,6 @@
 
 .responsive {
-    width: 800px;
+    width: 100%;
     height: 400px;
     background-size: contain;
 }
@@ -17,12 +17,6 @@
   margin-bottom: 90px;
 }
 
-.carousel-inner img {
-  -webkit-filter: grayscale(90%);
-  filter: grayscale(90%); /* make all photos black and white */
-  width: 100%; /* Set width to 100% */
-  margin: auto;
-}
 
 .carousel-caption h3 {
   color: #fff !important;

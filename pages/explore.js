@@ -12,7 +12,7 @@ export default function explore() {
         <title>Découvrir les experiences de vos artistes préférés </title>
         <meta name="description" content="découvrir les talents des artistes célèbres, des jeunes talents, et des nouveaux artistes"></meta>
       </Head>
-            <div className="row">
+            <div className="row" style = {{backgroundColor : '#8458B3'}}>
                 <SocialmediaBar />
                 <h2 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold" }}>Découvrir les experiences de vos artistes préférés</h2>
                 <Hr />

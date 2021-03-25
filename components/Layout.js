@@ -34,15 +34,18 @@ const Layout = props => {
         <script src="js/bootstrap.min.js"></script>
         <link href="css/bootstrap.min.css" rel="stylesheet"></link>
       </Head>
-
+      <div>
       <Header />
+      </div>
+      
       
       <div
         className="Content">{props.children}
 
       </div>
+      <div>
       <Footer />
-
+      </div>
 
     </div>
 

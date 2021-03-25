@@ -24,14 +24,16 @@ export default function Index() {
                 <meta name="description" content="blog pour jeunes artistes, experiences artistiques, reussites et echecs des jeunes artistes, incubateur de talents" />
             </Head>
             <div className="row text-center">
-                <div className="col-md-12"><Carousel></Carousel><AboutUs></AboutUs>
+                <div className="col-md-12"><div>
+                <Carousel></Carousel>
+                    </div><AboutUs></AboutUs>
             </div>
                 <SocialmediaBar />
                 
                
                 
-                <div className="col-md-12">
-                <h1 class = 'text-center'>Tendances Artistiques </h1>
+                <div className="col-md-12" style = {{backgroundColor : "#8458B3"}}>
+                <h1 class = 'text-center text-light'>Tendances Artistiques </h1>
                     <div className="container-fluid d-flex justify-content-center">
                     
                         <div className="row">
@@ -39,7 +41,7 @@ export default function Index() {
                             {Cards}
                         </div>
                     </div>
-                    <div></div>
+                    
                     <div className="container-fluid d-flex justify-content-center">
                         <div className="row">
                             {CardsSecondPart}

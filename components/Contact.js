@@ -1,7 +1,7 @@
 
 function Contact(){
     return(
-        <div class="container-fluid bg-dark ">
+        <div class="container-fluid" style = {{backgroundColor : '#494D5f'}}>
         <h2 class="text-center" style = {{color : 'white'}}>CONTACT</h2>
         <div class="row">
           <div class="col-sm-5">
@@ -22,7 +22,7 @@ function Contact(){
             <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br></br>
             <div class="row">
               <div class="col-sm-12 form-group">
-                <button class="btn btn-default pull-right" type="submit">Send</button>
+                <button class="btn btn-default pull-right bg-light" type="submit">Send</button>
               </div>
             </div>
           </div>
