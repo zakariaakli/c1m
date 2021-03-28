@@ -25,6 +25,9 @@ const Layout = props => {
         <meta httpEquiv='content-language' content='fr-fr' />
         <meta name="keywords" content="arts, art, motivation pour artistes, jeunes talents, experiences artistiques, echecs artistes ,reussites artistes" />
         <link rel="shortcut icon" href="/static/favicon.ico" />
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&family=Staatliches&display=swap');
+</style>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" ></link>
         <link href="css/addons-pro/cards-extended.min.css" rel="stylesheet"></link>

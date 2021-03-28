@@ -28,12 +28,12 @@ export default function Index() {
                 <Carousel></Carousel>
                     </div><AboutUs></AboutUs>
             </div>
-                <SocialmediaBar />
+                
                 
                
                 
                 <div className="col-md-12" style = {{backgroundColor : "#8458B3"}}>
-                <h1 class = 'text-center text-light'>Tendances Artistiques </h1>
+                <h1 class = 'text-center text-dark' style = {{fontFamily : "'Permanent Marker', cursive", fontSize : 70}}>Tendances <br></br> Artistiques </h1>
                     <div className="container-fluid d-flex justify-content-center">
                     
                         <div className="row">
@@ -42,14 +42,18 @@ export default function Index() {
                         </div>
                     </div>
                     
-                    <div className="container-fluid d-flex justify-content-center">
+                   
+                   
+                </div>
+                
+                <div className="col-md-12 bg-light">
+                <h1 class = 'text-center text-dark' style = {{fontFamily : "'Permanent Marker', cursive", fontSize : 70}}>Nos <br></br> Articles</h1>
+                <div className="container-fluid d-flex justify-content-center" >
                         <div className="row">
                             {CardsSecondPart}
                         </div>
                     </div>
-                   
-                </div>
-                <Services></Services>
+                    </div>
                 <Contact></Contact>
                 {/* <SocialmediaBar />
                 <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>Nouvelles des célébrités  | <a href="/explore" style={{  fontSize: 12, color: "#ebc106", textShadow:"grey 1px 1px 1px" }}> SEE MORE ...</a></h2>
@@ -86,7 +90,7 @@ export default function Index() {
 
                 </div> */}
                
-                <SocialmediaBar />
+                
                 {/* <h2 style={{ marginLeft: '11%', fontWeight: "bold", marginTop: "5%" , color : "#465c8b" }}>BEST VIEWED</h2> */}
             </div>
 
