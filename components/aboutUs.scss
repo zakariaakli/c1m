@@ -1,0 +1,38 @@
+// .logo {
+//     font-size: 200px;
+//   }
+  .container-fluid {
+    padding: 6em 6em;
+  }
+  .stylefont {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+  //   margin-left: 5em;
+  // margin-right: 5em;
+  }
+.about-text {
+  margin-left: 5em;
+  margin-right: 5em;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: left;
+      margin: 25px 0;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+  .about-text-margin{
+    margin-top: 3em;
+  }
+}
+
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+

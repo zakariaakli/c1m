@@ -12,8 +12,8 @@ export default function explore() {
         <title>Découvrir les experiences de vos artistes préférés </title>
         <meta name="description" content="découvrir les talents des artistes célèbres, des jeunes talents, et des nouveaux artistes"></meta>
       </Head>
-            <div className="row">
-                <SocialmediaBar />
+            <div className="row" >
+                
                 <h2 style={{ marginLeft: '11%', marginTop: 70, fontWeight: "bold" }}>Découvrir les experiences de vos artistes préférés</h2>
                 <Hr />
                 <div className="col-md-12">
@@ -29,7 +29,7 @@ export default function explore() {
                         </div>
                     </div>
                 </div>
-                <SocialmediaBar />
+                
             </div>
         </Layout>
     )

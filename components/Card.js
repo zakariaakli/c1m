@@ -5,7 +5,8 @@ function myFunction() {
 }
 
 const Card = props => {
-    return (
+    return(
+
 
         <div className="card text-center shadow ml-3 mb-3 mr-3 mt-3 border-right-0 bg-16" >
             <div className="overflow">
@@ -35,8 +36,6 @@ const Card = props => {
                 </div>
             </div>
         </div>
-
-
     )
 }
 
