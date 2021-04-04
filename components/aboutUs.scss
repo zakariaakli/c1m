@@ -7,6 +7,8 @@
   .stylefont {
     font-family: 'Permanent Marker', cursive;
     font-size: 80px;
+  //   margin-left: 5em;
+  // margin-right: 5em;
   }
 .about-text {
   margin-left: 5em;
@@ -26,5 +28,11 @@
   .about-text-margin{
     margin-top: 3em;
   }
+}
+
+.responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
