@@ -32,7 +32,7 @@ export default function Index() {
 
 
 
-                <div className="col-md-12" style = {{backgroundColor : "#8458B3"}}>
+                <div className="col-md-12">
                 <h1 class = 'text-center text-dark' style = {{fontFamily : "'Permanent Marker', cursive", fontSize : 70}}>Tendances <br></br> Artistiques </h1>
                     <div className="container-fluid d-flex justify-content-center">
 
