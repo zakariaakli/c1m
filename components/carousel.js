@@ -9,15 +9,15 @@ const Carousel = props => {
         <div class="carousel-item active">
           <img class="d-block w-100" src="/img/Cheers.png" alt="First slide"/>
           <div class="carousel-caption">
-          
+
           </div>
         </div>
-        
+
       </div>
-      
+
     </div>
-    
-    
+
+
     )
 }
 
