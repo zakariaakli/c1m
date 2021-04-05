@@ -43,7 +43,7 @@
     "remark-html": "^11.0.2",
     "styled-components": "^5.2.1",
     "webpack": "^4.21.0",
-    "webpack-dev-server": "^2.11.5"
+    "webpack-dev-server": "^3.1.11"
   },
   "devDependencies": {
     "css-loader": "^5.1.4",
