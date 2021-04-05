@@ -16,7 +16,9 @@ const Cards = data.map((data) => {
                 title= {data.title}
                 id= {data.id}
                 resume= {data.resume} />
+                
         </div>
+        
     
     )
 })
